@@ -18,22 +18,29 @@ nav_order: 1
 
 ## docker-compose.yml
 
+By default, Just the Docs uses a native system font stack for sans-serif fonts:
+
 ```yml
 version: '3'
 services:
     mysql-workbench:
-        privileged: true
+        image: jdecool/mysql-workbench
         volumes:
             - /tmp/.X11-unix:/tmp/.X11-unix
             - $HOME/.mysql-workbench:/root/.mysql/workbench
         network_mode: host
         environment:
-            - DISPLAY=unix:0
+            - DISPLAY=unix${DISPLAY}
         container_name: mysql-workbench
-        image: jdecool/mysql-workbench
+        
 ```
+Docker compose based on docker image:
+[jdecool MySQL Workbench image in dockerhub](https://hub.docker.com/r/jdecool/mysql-workbench).
 
-By default, Just the Docs uses a native system font stack for sans-serif fonts:
+## running GUI apps into docker container
+
+
+
 
 ```scss
 -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif
