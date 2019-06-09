@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Docker-Compose
-parent: FullStack
+parent: Dashboard
 nav_order: 1
 ---
 
