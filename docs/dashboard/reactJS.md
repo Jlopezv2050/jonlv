@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ReactJS
-parent: FullStack
+parent: dashboard
 nav_order: 4
 ---
 
