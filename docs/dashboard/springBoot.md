@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spring Boot
-parent: FullStack
+parent: Dashboard
 nav_order: 3
 ---
 
