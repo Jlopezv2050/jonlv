@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ReactJS
-parent: dashboard
+parent: Dashboard
 nav_order: 4
 ---
 
