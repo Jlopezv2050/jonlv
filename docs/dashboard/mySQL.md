@@ -1,7 +1,7 @@
 ---
 layout: default
 title: mySQL
-parent: FullStack
+parent: Dashboard
 nav_order: 2
 ---
 
