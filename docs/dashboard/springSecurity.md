@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ReactJS
+title: SpringSecurity
 parent: Dashboard
 nav_order: 4
 ---
