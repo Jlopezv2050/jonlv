@@ -5,7 +5,7 @@ parent: Dashboard
 nav_order: 4
 ---
 
-# ReactJS
+# Spring Security
 
 Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport.
 
