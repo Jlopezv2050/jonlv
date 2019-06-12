@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Spring Boot
+title: ReactJS
 parent: Dashboard
-nav_order: 3
+nav_order: 5
 ---
 
-# Spring Boot
+# React JS
 
 It's a way to create stand-alone application with minimal configuration. It provides features like autoregister components if your bean are in the springBoot app hierarchy or autoconfigure dependencies (ex. bbdd, webServer,...) based on the classes and configs founded in the classpath.
 
